@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppChamada</string>
+    <string name="Telefone">Telephone: </string>
+    <string name="Endereco">Address: </string>
+    <string name="Nome">Name: </string>
+    <string name="Idade">Age: </string>
+    <string name="SALVAR">SAVE</string>
+</resources>

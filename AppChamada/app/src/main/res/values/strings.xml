@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppChamada</string>
+    <string name="Telefone">Telefone: </string>
+    <string name="Endereco">Endereco: </string>
+    <string name="Nome">Nome: </string>
+    <string name="Idade">Idade: </string>
+    <string name="SALVAR">SALVAR</string>
 </resources>

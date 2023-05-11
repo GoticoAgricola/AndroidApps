@@ -14,7 +14,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="188dp"
         android:ems="10"
-        android:hint="Telefone: "
+        android:hint="@string/Telefone"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
@@ -27,7 +27,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Nome: "
+        android:hint="@string/Nome"
         android:inputType="textCapWords"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -40,7 +40,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="192dp"
         android:ems="10"
-        android:hint="Endereco: "
+        android:hint="@string/Endereco"
         android:inputType="textCapWords"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
         android:layout_height="49dp"
         android:layout_marginTop="28dp"
         android:ems="10"
-        android:hint="Idade: "
+        android:hint="@string/Idade"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -64,10 +64,12 @@
         android:layout_width="157dp"
         android:layout_height="77dp"
         android:layout_marginTop="240dp"
-        android:text="SALVAR"
+        android:text="@string/SALVAR"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etRA" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
