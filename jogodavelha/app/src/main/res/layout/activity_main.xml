@@ -14,12 +14,12 @@
         android:id="@+id/btn5"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage5">
 
         </ImageView>
@@ -32,12 +32,12 @@
         android:layout_centerInParent="true"
         android:id="@+id/btn4"
         android:layout_toLeftOf="@id/btn5"
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage4">
 
         </ImageView>
@@ -50,12 +50,12 @@
         android:layout_centerInParent="true"
         android:id="@+id/btn6"
         android:layout_toRightOf="@id/btn5" 
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage6">
 
         </ImageView>
@@ -105,15 +105,15 @@
 
    <Button
        android:layout_width="320dp"
-       android:layout_height="40dp"
+       android:layout_height="50dp"
        android:layout_below="@+id/btn8"
        android:layout_centerHorizontal="true"
        android:layout_marginTop="80dp"
-       android:text="Reset"
+       android:text="Novo Jogo"
        android:id="@+id/Reset"
        android:textSize="15sp"
        android:textColor="@color/white"
-       android:backgroundTint="@color/purple_200">
+       android:backgroundTint="@color/purple_500">
 
    </Button>
 
@@ -126,12 +126,12 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage8">
 
         </ImageView>
@@ -148,12 +148,12 @@
 
         android:layout_toLeftOf="@id/btn8"
 
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage7">
 
         </ImageView>
@@ -170,12 +170,12 @@
 
         android:layout_toRightOf="@id/btn8"
 
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage9">
 
         </ImageView>
@@ -196,7 +196,7 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-           android:text="Score X : -0"
+           android:text="Jogador X:0"
            android:textSize="30sp"
            android:textColor="@color/white"
            android:textStyle="bold"
@@ -207,7 +207,7 @@
        <TextView
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-           android:text="Score Y : -0"
+           android:text="Jogador O:0"
            android:textSize="30sp"
            android:textColor="@color/white"
            android:textStyle="bold"
@@ -226,12 +226,12 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage2">
 
         </ImageView>
@@ -247,12 +247,12 @@
         android:layout_marginBottom="20dp"
         android:layout_toLeftOf="@id/btn2"
 
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage1">
 
         </ImageView>
@@ -268,12 +268,12 @@
         android:layout_marginBottom="20dp"
         android:layout_toRightOf="@id/btn2"
 
-        android:background="343e56">
+        android:background="#343e56">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
+
             android:id="@+id/buttonImage3">
 
         </ImageView>
