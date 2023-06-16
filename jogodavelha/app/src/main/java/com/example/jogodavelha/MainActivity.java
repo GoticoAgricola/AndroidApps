@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         button1=findViewById(R.id.buttonImage1);
         button2=findViewById(R.id.buttonImage2);
         button3=findViewById(R.id.buttonImage3);
-        button3=findViewById(R.id.buttonImage4);
+        button4=findViewById(R.id.buttonImage4);
         button5=findViewById(R.id.buttonImage5);
         button6=findViewById(R.id.buttonImage6);
         button7=findViewById(R.id.buttonImage7);
