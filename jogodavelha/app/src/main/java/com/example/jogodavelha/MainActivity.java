@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 resetvalues();
                 xCount=0;
                 oCount=0;
-                scorex.setText("Placar X :- "+String.valueOf(xCount));
-                scoreo.setText("Placar O :- "+String.valueOf(oCount));
+                scorex.setText("Placar X: "+String.valueOf(xCount));
+                scoreo.setText("Placar O: "+String.valueOf(oCount));
             }
         });
 
@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b4==1) && (b5==1) && (b6==1))
@@ -298,7 +298,7 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog alertDialog=builder.create();
             alertDialog.show();
             xCount++;
-            scorex.setText("Placar X :- "+String.valueOf(xCount));
+            scorex.setText("Placar X: "+String.valueOf(xCount));
         }
 
     else if((b7==1) && (b8==1) && (b9==1))
@@ -323,7 +323,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b2==2) && (b5==1) && (b8==1))
@@ -348,7 +348,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b3==1) && (b6==1) && (b9==1))
@@ -373,7 +373,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b1==1) && (b4==1) && (b7==1))
@@ -398,7 +398,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b1==1) && (b5==1) && (b9==1))
@@ -423,7 +423,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b3==1) && (b5==1) && (b7==1))
@@ -448,7 +448,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         xCount++;
-        scorex.setText("Placar X :- "+String.valueOf(xCount));
+        scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
     else if((b1==0) && (b2==0) && (b3==0))
@@ -473,7 +473,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b4==0) && (b5==0) && (b6==0))
@@ -498,7 +498,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b7==0) && (b8==0) && (b9==0))
@@ -523,7 +523,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b1==0) && (b4==0) && (b7==0))
@@ -548,7 +548,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b2==0) && (b5==0) && (b8==0))
@@ -573,7 +573,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b3==0) && (b6==0) && (b9==0))
@@ -598,7 +598,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b1==0) && (b5==0) && (b9==0))
@@ -623,7 +623,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else if((b3==0) && (b5==0) && (b7==0))
@@ -648,7 +648,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alertDialog=builder.create();
         alertDialog.show();
         oCount++;
-        scoreo.setText("Placar O :- "+String.valueOf(oCount));
+        scoreo.setText("Placar O: "+String.valueOf(oCount));
     }
 
     else
