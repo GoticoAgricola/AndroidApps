@@ -276,7 +276,7 @@ public class MainActivity extends AppCompatActivity {
         scorex.setText("Placar X :- "+String.valueOf(xCount));
     }
 
-        else if((b4==1) && (b5==1) && (b6==1))
+    else if((b4==1) && (b5==1) && (b6==1))
         {
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
             builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -301,7 +301,7 @@ public class MainActivity extends AppCompatActivity {
             scorex.setText("Placar X :- "+String.valueOf(xCount));
         }
 
-    else if((b4==1) && (b4==1) && (b7==1))
+    else if((b7==1) && (b8==1) && (b9==1))
     {
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -326,7 +326,7 @@ public class MainActivity extends AppCompatActivity {
         scorex.setText("Placar X :- "+String.valueOf(xCount));
     }
 
-    else if((b4==2) && (b5==1) && (b8==1))
+    else if((b2==2) && (b5==1) && (b8==1))
     {
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -352,6 +352,31 @@ public class MainActivity extends AppCompatActivity {
     }
 
     else if((b3==1) && (b6==1) && (b9==1))
+    {
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                button1.setImageDrawable(null);
+                button2.setImageDrawable(null);
+                button3.setImageDrawable(null);
+                button4.setImageDrawable(null);
+                button5.setImageDrawable(null);
+                button6.setImageDrawable(null);
+                button7.setImageDrawable(null);
+                button8.setImageDrawable(null);
+                button9.setImageDrawable(null);
+                resetvalues();
+            }
+        });
+
+        AlertDialog alertDialog=builder.create();
+        alertDialog.show();
+        xCount++;
+        scorex.setText("Placar X :- "+String.valueOf(xCount));
+    }
+
+    else if((b1==1) && (b4==1) && (b7==1))
     {
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
