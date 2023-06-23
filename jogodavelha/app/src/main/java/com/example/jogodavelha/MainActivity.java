@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
     if((b1==1) && (b2==1) && (b3==1))
     {
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
-        builder.setMessage("Placar X Wins").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 button1.setImageDrawable(null);
@@ -326,7 +326,7 @@ public class MainActivity extends AppCompatActivity {
         scorex.setText("Placar X: "+String.valueOf(xCount));
     }
 
-    else if((b2==2) && (b5==1) && (b8==1))
+    else if((b2==1) && (b5==1) && (b8==1))
     {
         AlertDialog.Builder builder=new AlertDialog.Builder(this);
         builder.setMessage("Jogador X ganhou").setCancelable(false).setPositiveButton("OK", new DialogInterface.OnClickListener() {
